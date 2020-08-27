@@ -1,0 +1,16 @@
+repositories {
+    maven { url "https://platform.ekstep.in/downloads/content/repositories/releases" }
+}
+
+dependencies {
+    // For undubled Genie Initegration
+    compile "org.ekstep.genieservices:genie-integration:1.0.779@aar"
+    compile "org.ekstep.genieservices:commons:1.0.779@jar"
+}
+
+android {
+  packagingOptions {
+    exclude 'META-INF/NOTICE'
+    exclude 'META-INF/LICENSE'
+  }
+}

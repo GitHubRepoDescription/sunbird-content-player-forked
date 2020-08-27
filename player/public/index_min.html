@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html ng-app="genie-canvas">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src * https: file: data: filesystem: blob: android-webview-video-poster:; style-src * 'unsafe-inline' blob: https:;  script-src * 'unsafe-inline' https: file: blob: 'unsafe-eval'; font-src *;">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title></title>
+
+    <!-- injector:css -->
+    <link rel="stylesheet" type="text/css" href="styles/ionic.css" />
+    <link rel="stylesheet" type="text/css" href="styles/bookshelf_slider.css" />
+    <link rel="stylesheet" type="text/css" href="styles/skin02.css" />
+    <link rel="stylesheet" type="text/css" href="styles/toastr.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <!-- endinjector -->
+    <style>
+        #gameArea {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+        }
+        
+        #gameCanvas {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .inputText {
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+            border: solid 2px black !important;
+            font-size: 15px !important;
+            padding-left: 10px !important;
+            font-weight: bold !important;
+            padding-right: 5px;
+            z-index: 1000;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body ng-controller="BaseCtrl">
+    <ion-nav-view></ion-nav-view>
+    <div id="loading" class="gc-loader-area"></div>
+
+    <div class="content-holder" ng-repeat="template in templates">
+        <!-- <div ng-include="templatePath"></div> -->
+        <div ng-include="template.path || template.id"></div>
+
+    </div>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <!-- injector:js -->
+    <script type="text/javascript" src="libs/jquery.min.js"></script>
+    <script type="text/javascript" src="libs/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="libs/jquery.bookshelfslider.min.js"></script>
+    <script type="text/javascript" src="libs/async.min.js"></script>
+    <script type="text/javascript" src="libs/plugin-framework.min.js"></script>
+    <script type="text/javascript" src="libs/toastr.min.js"></script>
+    <script type="text/javascript" src="libs/md5.js"></script>
+    <script type="text/javascript" src="libs/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="libs/ionic.bundle.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="libs/ng-cordova.min.js"></script>
+    <script type="text/javascript" src="libs/angular-resource.min.js"></script>
+    <script type="text/javascript" src="libs/underscore.js"></script>
+    <script type="text/javascript" src="libs/date-format.js"></script>
+    <script type="text/javascript" src="libs/ocLazyLoad.js"></script>
+    <script type="text/javascript" src="libs/progressbar.min.js"></script>
+    <script type="text/javascript" src="js/appConfig.js"></script>
+    <script type="text/javascript" src="js/globalContext.js"></script>
+    <script type="text/javascript" src="js/appMessages.js"></script>
+    <script src="services/mainservice.js"></script>
+    <script src="services/localservice.js"></script>
+    <script src="services/interfaceService.js"></script>
+    <script src="services/controllerservice.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/content-renderer.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/detectClient.js"></script>
+    <script type="text/javascript" src="js/ekstepRendererApi.js"></script>
+    <script type="text/javascript" src="js/ekstepRendererEvents.js"></script>
+    <script type="text/javascript" src="js/basePlugin.js"></script>
+    <script type="text/javascript" src="js/baseLauncher.js"></script>
+    <script type="text/javascript" src="js/baseEndpage.js"></script>
+    <script src="telemetry/InActiveEvent.js"></script>
+    <script src="telemetry/TelemetryEvent.js"></script>
+    <script src="telemetry/TelemetryServiceUtil.js"></script>
+    <script src="telemetry/TelemetryService.js"></script>
+    <script src="telemetry/TelemetryV1Manager.js"></script>
+    <script src="telemetry/TelemetryV2Manager.js"></script>
+    <script src="telemetry/TelemetryV3Manager.js"></script>
+    <script src="dispatcher/idispatcher.js"></script>
+    <script src="dispatcher/web-dispatcher.js"></script>
+    <script src="dispatcher/device-dispatcher.js"></script>
+    <script src="js/test/specHelper.js"></script>
+    <script type="text/javascript" src="renderer/manager/AudioManager.js"></script>
+    <script type="text/javascript" src="coreplugins/LauncherPlugin.js"></script>
+    <!-- endinjector -->
+</body>
+
+</html>

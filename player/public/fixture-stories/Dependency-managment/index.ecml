@@ -1,0 +1,141 @@
+<theme compatibilityVersion="2" id="theme" version="1.0" startStage="dcd9e493-0531-437a-b3d4-e7345a51dae8">
+    <manifest>
+        <!-- <media ver="1.0" plugin="org.ekstep.quiz" src="content-plugins/org.ekstep.quiz-1.0/renderer/plugin.js" id="org.ekstep.quiz" type="plugin"></media> -->
+
+        <media ver="1.0" plugin="org.ekstep.quiz" src="content-plugins/org.ekstep.quiz-1.0/manifest.json" id="org.ekstep.quiz_manifest" type="json"></media>
+
+        <!-- <media ver="1.0" plugin="org.ekstep.scribblepad" src="content-plugins/org.ekstep.scribblepad-1.0/renderer/scribblepadplugin.js" id="org.ekstep.scribblepad" type="plugin"></media> -->
+        <media ver="1.0" plugin="org.ekstep.scribblepad" src="content-plugins/org.ekstep.scribblepad-1.0/manifest.json" id="org.ekstep.scribblepad_manifest" type="json"></media>
+       <!--  <media ver="1.0" plugin="org.ekstep.recordandplay" src="content-plugins/org.ekstep.recordandplay-1.0/renderer/recordandplayplugin.js" id="org.ekstep.recordandplay" type="plugin"></media> -->
+       <!--  <media ver="1.0" plugin="org.ekstep.recordandplay" src="content-plugins/org.ekstep.recordandplay-1.0/manifest.json" id="org.ekstep.recordandplay_manifest" type="json"></media> -->
+        <!-- <media ver="1.0" plugin="org.ekstep.textpopup" src="content-plugins/org.ekstep.textpopup-1.0/renderer/textpopupplugin.js" id="org.ekstep.textpopup" type="plugin"></media> -->
+        <!-- <media ver="1.0" plugin="org.ekstep.textpopup" src="content-plugins/org.ekstep.textpopup-1.0/manifest.json" id="org.ekstep.textpopup_manifest" type="json"></media> -->
+        <!-- <media ver="1.0" plugin="org.ekstep.text" src="content-plugins/org.ekstep.text-1.0/renderer/supertextplugin.js" id="org.ekstep.text" type="plugin"></media> -->
+ <!--        <media ver="1.0" plugin="org.ekstep.text" src="content-plugins/org.ekstep.text-1.0/manifest.json" id="org.ekstep.text_manifest" type="json"></media> -->
+       <!--  <media ver="1.0" plugin="org.ekstep.progressbar" src="content-plugins/org.ekstep.progressbar-1.0/renderer/progressbarplugin.js" id="org.ekstep.progressbar" type="plugin"></media> -->
+       <!--  <media ver="1.0" plugin="org.ekstep.progressbar" src="content-plugins/org.ekstep.progressbar-1.0/manifest.json" id="org.ekstep.progressbar_manifest" type="json"></media> -->
+        <media src="assets/public/content/_345_1461920347_1461920339477.jpg" id="domain_42169" asset_id="domain_42169" type="image" preload="true"></media>
+        <media src="assets/public/content/_345_1461920348_1461920339792.mp3" id="domain_42170" asset_id="domain_42170" type="audio" preload="true"></media>
+        <!-- <media ver="1.0" plugin="org.ekstep.keyboard" src="assets/public/content/1460550074646customkeyboard.js" assetId="domain_38075_keyboard" id="org.ekstep.keyboard" type="plugin" preload="true"></media> -->
+        <media src="assets/public/content/1460624453530trash.png" assetId="org.ekstep.scribblepad.eraser" id="org.ekstep.scribblepad.eraser" type="image" preload="true"></media>
+        <media src="content-plugins/org.ekstep.recordandplay-1.0/assets/mic.png" assetId="mic" id="mic" type="image" preload="true"></media>
+        <media src="content-plugins/org.ekstep.recordandplay-1.0/assets/01.png" assetId="N_stoprec" id="N_stoprec" type="image" preload="true"></media>
+        <media src="content-plugins/org.ekstep.recordandplay-1.0/assets/02.png" assetId="submit_disabled_image" id="N_stoprec2" type="N_stoprec2" preload="true"></media>
+        <media src="content-plugins/org.ekstep.recordandplay-1.0/assets/recordbtn.png" assetId="N_startrec" id="N_startrec" type="image" preload="true"></media>
+        <media src="content-plugins/org.ekstep.recordandplay-1.0/assets/soundbtn.png" assetId="N_playrec" id="N_playrec" type="image" preload="true"></media>
+        <media src="content-plugins/org.ekstep.recordandplay-1.0/assets/play01.png" assetId="N_playrec2" id="N_playrec2" type="image" preload="true"></media>
+        <media src="content-plugins/org.ekstep.textpopup-1.0/assets/poptogglebtn.png" id="toggle_image" type="image" preload="true"></media>
+        
+    </manifest>
+    <stage w="100" x="0" h="100" y="0" id="dcd9e493-0531-437a-b3d4-e7345a51dae8">
+        <config>
+            <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"genieControls":true,"instructions":""}]]>
+        </config>
+        <param name="next" value="79451ae5-2603-4813-aca2-a58d40a0820a"></param>
+        <org.ekstep.text strokeWidth="1" rotate="0" z-index="0" editable="false" h="5.02" fontsize="48" weight="" minWidth="20" textType="text" fill="#000000" fontStyle="normal" stroke="rgba(255, 255, 255, 0)" w="35" x="31.11" y="41.73" lineHeight="1.3" id="363c30bb-04e7-4062-8e54-8aa774251e65" opacity="1" fontWeight="normal" maxWidth="500" font="NotoSans">
+            <config>
+                <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"text":"Text plugin dependency","color":"#000000","fontfamily":"NotoSans","fontsize":18,"fontweight":false,"fontstyle":false,"align":"left"}]]>
+            </config>
+        </org.ekstep.text>
+    </stage>
+    <stage w="100" x="0" h="100" y="0" id="79451ae5-2603-4813-aca2-a58d40a0820a">
+        <config>
+            <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"genieControls":true,"instructions":""}]]>
+        </config>
+        <param name="previous" value="dcd9e493-0531-437a-b3d4-e7345a51dae8"></param>
+        <param name="next" value="d354352c-847a-44c6-923c-21a3e8ead336"></param>
+        <org.ekstep.progressbar progressbarSuccess="#54CA07" rotate="0" z-index="0" progressbarFailure="#FF333F" h="10" questions="1" progressbarStroke="#000" w="78" x="11" y="78" fontSize="32" id="a81ebea5-6d47-441c-904c-3a1d080ad1c2">
+            <config>
+                <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"questions":1,"fontsize":32,"progressbarStroke":"#000","progressbarSuccess":"#54CA07","progressbarFailure":"#FF333F"}]]>
+            </config>
+        </org.ekstep.progressbar>
+        <org.ekstep.text strokeWidth="1" rotate="0" z-index="1" editable="false" h="5.02" fontsize="48" weight="" minWidth="20" textType="text" fill="#000000" fontStyle="normal" stroke="rgba(255, 255, 255, 0)" w="35" x="33.75" y="26.42" lineHeight="1.3" id="15b171c4-d47c-468d-b55e-336aaec772e9" opacity="1" fontWeight="normal" maxWidth="500" font="NotoSans">
+            <config>
+                <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"text":"progress bar","color":"#000000","fontfamily":"NotoSans","fontsize":18,"fontweight":false,"fontstyle":false,"align":"left"}]]>
+            </config>
+        </org.ekstep.text>
+    </stage>
+    <stage w="100" x="0" h="100" y="0" id="d354352c-847a-44c6-923c-21a3e8ead336">
+        <config>
+            <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"genieControls":true,"instructions":""}]]>
+        </config>
+        <param name="next" value="620a4bd1-0b0b-4d1d-a953-b310a2500819"></param>
+        <param name="previous" value="79451ae5-2603-4813-aca2-a58d40a0820a"></param>
+        <org.ekstep.quiz rotate="0" z-index="0" w="80" x="9" h="85" y="6" id="22a4d56e-8dce-44b1-972e-1d0de42c8aab">
+            <data>
+                <![CDATA[{"questionnaire":{"items":{"domain_42171":[{"template":"org.ekstep.ftb.barakhadi","code":"org.ekstep.assessmentitem.literacy_5723225c5ce0e","qlevel":"EASY","language":["English"],"media":[{"id":"domain_42169","type":"image","src":"/assets/public/content/_345_1461920347_1461920339477.jpg","asset_id":"domain_42169","preload":"true"},{"id":"domain_42170","type":"audio","src":"/assets/public/content/_345_1461920348_1461920339792.mp3","asset_id":"domain_42170","preload":"true"}],"type":"ftb","title":"barakadi2","createdOn":"2016-04-29T08:58:59.941+0000","objectType":"AssessmentItem","feedback":"","gradeLevel":["Grade 1"],"lastUpdatedOn":"2016-09-01T18:49:42.807+0000","used_for":"worksheet","model":{"keys":"a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x"},"owner":"345","identifier":"domain_42171","question":"barakadi2","portalOwner":"345","graph_id":"domain","nodeType":"DATA_NODE","answer":{"ans1":{"value":"mango","score":1}},"max_score":1,"name":"barakadi2","template_id":"domain_38075","node_id":40582,"question_audio":"domain_42170","question_image":"domain_42169","es_metadata_id":"domain_42171","isSelected":true,"$$hashKey":"object:723"}]},"item_sets":[{"count":1,"id":"domain_42171"}],"title":"fsdf","shuffle":false,"showImmediateFeedback":true,"myQuestions":false,"concepts":"(0) Concepts","total_items":1,"max_score":1,"range":[1],"optionShuffle":true},"template":[{"text":[{"align":"center","color":"black","font":"Verdana","fontsize":70,"model":"item.title","w":80,"x":10,"y":6},{"align":"center","color":"black","font":"Verdana","fontsize":100,"h":15,"id":"newText","model":"item.ans1","stroke":"black","valign":"middle","w":35,"x":58,"y":67,"z-index":100},{"color":"black","font":"Verdana","fontsize":100,"h":8,"model":"item.question","w":20,"x":10,"y":90}],"shape":[{"event":{"action":{"asset":"bKeyboard","command":"custom","id":"newText","invoke":"switchTarget","type":"command"},"type":"click"},"fill":"white","h":15,"stroke-width":5,"w":35,"x":58,"y":67,"z-index":99},{"event":{"action":{"asset_model":"item.title_audio.asset","command":"play","type":"command"},"type":"click"},"fill":"white","h":15,"w":80,"x":10,"y":6,"z-index":99}],"org.ekstep.keyboard":{"id":"bKeyboard","keys":"item.keys","limit":10,"target":"newText","type":"custom","x":5,"y":15},"image":{"event":{"action":{"asset_model":"item.question_audio","command":"play","type":"command"},"type":"click"},"h":30,"model":"item.question_image","w":20,"x":10,"y":58},"id":"org.ekstep.ftb.barakhadi"}]}]]>
+            </data>
+            <config>
+                <![CDATA[{"type":"items","var":"item","media":{"domain_42169":{"id":"domain_42169","type":"image","src":"/assets/public/content/_345_1461920347_1461920339477.jpg","asset_id":"domain_42169","preload":"true"},"domain_42170":{"id":"domain_42170","type":"audio","src":"/assets/public/content/_345_1461920348_1461920339792.mp3","asset_id":"domain_42170","preload":"true"},"keyboard":{"assetId":"domain_38075_keyboard","id":"keyboard","src":"/assets/public/content/1460550074646CustomKeyboard.js","type":"plugin","preload":"true","plugin":"org.ekstep.quiz","ver":"1.0"},"keyboard_css":{"assetId":"domain_38075_keyboard_css","id":"keyboard_css","src":"/assets/public/content/1460550074797keyboard.css","type":"css","preload":"true","plugin":"org.ekstep.quiz","ver":"1.0"}},"shuffle":false,"total_items":1,"showImmediateFeedback":true,"max_score":1,"title":"fsdf","optionShuffle":true}]]>
+            </config>
+        </org.ekstep.quiz>
+        <manifest>
+            <media assetId="domain_42169"></media>
+            <media assetId="domain_42170"></media>
+            <media assetId="org.ekstep.keyboard"></media>
+            <media assetId="keyboard_css"></media>
+        </manifest>
+    </stage>
+    <stage w="100" x="0" h="100" y="0" id="620a4bd1-0b0b-4d1d-a953-b310a2500819">
+        <config>
+            <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"genieControls":true,"instructions":""}]]>
+        </config>
+        <param name="previous" value="d354352c-847a-44c6-923c-21a3e8ead336"></param>
+        <param name="next" value="490ab2e3-3c70-42dd-b8bb-1171729d8215"></param>
+        <org.ekstep.scribblepad strokeWidth="1" rotate="0" z-index="0" thickness="2" h="60" type="roundrect" fill="#3399FF" stroke="rgba(255, 255, 255, 0)" w="27" x="35.42" y="18.27" stroke-width="1" id="4246b5a6-d6eb-4555-a205-4dbe01295d85" opacity="0.3">
+            <config>
+                <![CDATA[{"opacity":30,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"color":"#3399FF"}]]>
+            </config>
+        </org.ekstep.scribblepad>
+        <manifest>
+            <media assetId="org.ekstep.scribblepad.eraser"></media>
+        </manifest>
+    </stage>
+    <stage w="100" x="0" h="100" y="0" id="490ab2e3-3c70-42dd-b8bb-1171729d8215">
+        <config>
+            <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"genieControls":true,"instructions":""}]]>
+        </config>
+        <param name="previous" value="620a4bd1-0b0b-4d1d-a953-b310a2500819"></param>
+        <param name="next" value="0b9ae805-e15a-48de-9758-128bd12139a7"></param>
+        <org.ekstep.recordandplay rotate="0" z-index="0" w="13.5" x="40.97" h="24" y="30.37" id="71473e73-809b-4812-85a2-d254be11da78">
+            <config>
+                <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true}]]>
+            </config>
+        </org.ekstep.recordandplay>
+        <manifest>
+            <media assetId="mic"></media>
+            <media assetId="N_stoprec"></media>
+            <media assetId="N_stoprec2"></media>
+            <media assetId="N_startrec"></media>
+            <media assetId="N_playrec"></media>
+            <media assetId="N_playrec2"></media>
+        </manifest>
+    </stage>
+    <stage w="100" x="0" h="100" y="0" id="0b9ae805-e15a-48de-9758-128bd12139a7">
+        <config>
+            <![CDATA[{"opacity":100,"strokeWidth":1,"stroke":"rgba(255, 255, 255, 0)","autoplay":false,"visible":true,"genieControls":true,"instructions":""}]]>
+        </config>
+        <param name="previous" value="490ab2e3-3c70-42dd-b8bb-1171729d8215"></param>
+        <org.ekstep.textpopup strokeWidth="1" rotate="0" z-index="0" color="#000000" editable="false" h="79.5" minWidth="20" fontStyle="normal" stroke="rgba(255, 255, 255, 0)" fontFamily="Sans-serif" bgcolor="#dddddd" w="79.72" x="11.25" y="10" fontSize="18" id="e9032617-0b34-4728-8712-07d711b7930e" opacity="1" fontWeight="normal" maxWidth="500">This is text popup testing
+            <data>
+                <![CDATA[{"x":90,"y":2,"w":4.5,"h":8,"stretch":false,"asset":"toggle_image","left":90,"top":2,"width":4.5,"height":8,"rotate":0}]]>
+            </data>
+            <config>
+                <![CDATA[{"bgcolor":"#dddddd","color":"#000000","fontsize":18}]]>
+            </config>
+        </org.ekstep.textpopup>
+        <manifest>
+            <media assetId="toggle_image"></media>
+        </manifest>
+    </stage>
+    <plugin-manifest>
+        <plugin ver="1.0" depends="" id="org.ekstep.quiz" type="plugin"></plugin>
+        <plugin ver="1.0" depends="" id="org.ekstep.scribblepad" type="plugin"></plugin>
+        <plugin ver="1.0" depends="" id="org.ekstep.recordandplay" type="widget"></plugin>
+        <plugin ver="1.0" depends="" id="org.ekstep.textpopup" type="plugin"></plugin>
+        <plugin ver="1.0" depends="" id="org.ekstep.text" type="plugin"></plugin>
+        <plugin ver="1.0" depends="" id="org.ekstep.progressbar" type="plugin"></plugin>
+        <plugin ver="1.0" depends="" id="org.ekstep.keyboard" type="plugin"></plugin>
+        
+    </plugin-manifest>
+</theme>
